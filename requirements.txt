@@ -1,10 +1,12 @@
 torch==2.1.2
 torchvision==0.16.2
+torchaudio==2.1.2
+
+streamlit>=1.24
 numpy
 Pillow
-opencv-python
+opencv-python-headless
 mediapipe
-streamlit
 scikit-learn
 matplotlib
 seaborn
