@@ -324,8 +324,8 @@ class ResNet100ArcFace(nn.Module):
       return logits, emb
 
 
-MODEL_PATH = "Models\Resnet100ArcFace.pth" 
-LABEL_MAP_PATH = "Results\class_labels.json" 
+MODEL_PATH = "Models/Resnet100ArcFace.pth" 
+LABEL_MAP_PATH = "Results/class_labels.json" 
 EMBEDDING_DIM = 512
 
 @st.cache_resource
